@@ -1,8 +1,11 @@
 // tailwind.config.js
 export default {
-  content: ['./app/**/*.{ts,tsx}'],
+  content: ["./app/**/*.{ts,tsx}"],
   theme: {
-    extend: {}
+    extend: {},
   },
-  plugins: [require('daisyui')],
-}
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["wireframe"],
+  },
+};

@@ -14,15 +14,15 @@ export default createRoute(async (c) => {
             src="/static/pic.jpg"
             className="max-w-xs rounded-lg shadow-2xl md:max-w-md"
           />
-          <div className="ml-2">
-            <h1 className="text-5xl font-bold max-w-fit text-center md:text-left">
+          <div className="">
+            <h1 className="text-5xl font-bold text-center lg:text-left">
               Brandon Cox
             </h1>
-            <h3 className="text-2xl font-bold text-center md:text-left">
+            <h3 className="text-2xl font-bold text-center lg:text-left">
               software engineer and architect
             </h3>
-            <p className="py-6 text-lg text-center md:text-left"></p>
-            <div className="flex flex-col max-w-xs md:flex-row">
+            <p className="py-6 text-lg text-center lg:text-left"></p>
+            <div className="flex flex-col lg:flex-row">
               <a
                 target="_blank"
                 href="/resume"
@@ -33,7 +33,7 @@ export default createRoute(async (c) => {
               </a>
               <a
                 href="mailto: personal-site.341f4@passmail.net"
-                className="btn btn-secondary text-lg mb-2 md:ml-2"
+                className="btn btn-secondary text-lg mb-2 lg:ml-2"
               >
                 <EmailIcon />
                 <p className="font-mono">email</p>
@@ -41,7 +41,7 @@ export default createRoute(async (c) => {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/bcox-dev/"
-                className="btn btn-secondary text-lg mb-2 md:ml-2"
+                className="btn btn-secondary text-lg mb-2 lg:ml-2"
               >
                 <LinkIcon />
                 <p className="font-mono">linkedin</p>

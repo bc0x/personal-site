@@ -21,12 +21,7 @@ export default createRoute(async (c) => {
             <h3 className="text-2xl font-bold text-center md:text-left">
               software engineer and architect
             </h3>
-            <p className="py-6 text-lg text-center md:text-left">
-              lorem ipsum dolor sit amet consectetur adipisicing elit. quod
-              aperiam perspiciatis neque incidunt eligendi? tempore odit harum
-              omnis, nemo quos quidem quas facilis unde, similique, deleniti sed
-              cupiditate consequatur repudiandae?
-            </p>
+            <p className="py-6 text-lg text-center md:text-left"></p>
             <div className="flex flex-col max-w-xs md:flex-row">
               <a
                 target="_blank"
